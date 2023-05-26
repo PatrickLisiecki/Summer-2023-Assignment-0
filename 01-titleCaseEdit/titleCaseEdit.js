@@ -1,17 +1,19 @@
 function titleCaseEdit(title) {
-  // Insert code here;
+    // Insert code here;
 
-  // Seperate title into each word
-  const titleWords = title.split(" ")
+    // Seperate title into seperate words
+    const titleWords = title.split(" ");
 
-  for (let i = 0; i < titleWords.length; i++) {
-    titleWords[i] =
-      titleWords[i].charAt(0).toUpperCase() + titleWords[i].slice(1)
-  }
+    // Uppercase the first letter of every word
+    for (let i = 0; i < titleWords.length; i++) {
+        titleWords[i] =
+            titleWords[i].charAt(0).toUpperCase() + titleWords[i].slice(1);
+    }
 
-  let capitalTitle = titleWords.join(" ")
-  return capitalTitle
+    // Join the words back into a single string
+    let capitalTitle = titleWords.join(" ");
+    return capitalTitle;
 }
 
 // Do not edit this line;
-module.exports = titleCaseEdit
+module.exports = titleCaseEdit;

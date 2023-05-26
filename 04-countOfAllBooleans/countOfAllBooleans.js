@@ -1,18 +1,18 @@
 function countOfAllBooleans(arr) {
-  // Insert code here;
-  let booleanCount = 0
+    // Insert code here;
+    let booleanCount = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    /*if (arr[i] === true || arr[i] === false) {
-      booleanCount++
-    }*/
-    if (typeof arr[i] === "boolean") {
-      booleanCount++
+    for (let i = 0; i < arr.length; i++) {
+        /*if (arr[i] === true || arr[i] === false) {
+            booleanCount++
+        }*/
+        if (typeof arr[i] === "boolean") {
+            booleanCount++;
+        }
     }
-  }
 
-  return booleanCount
+    return booleanCount;
 }
 
 // Do not edit this line;
-module.exports = countOfAllBooleans
+module.exports = countOfAllBooleans;

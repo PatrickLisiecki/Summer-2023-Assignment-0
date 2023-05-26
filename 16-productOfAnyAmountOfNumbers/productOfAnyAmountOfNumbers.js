@@ -1,13 +1,13 @@
 function productOfAnyAmountOfNumbers(...args) {
-  // Insert code here;
-  let product = args[0]
+    // Insert code here;
+    let product = args[0];
 
-  for (let i = 1; i < args.length; i++) {
-    product *= args[i]
-  }
+    for (let i = 1; i < args.length; i++) {
+        product *= args[i];
+    }
 
-  return product
+    return product;
 }
 
 // Do not edit this line;
-module.exports = productOfAnyAmountOfNumbers
+module.exports = productOfAnyAmountOfNumbers;

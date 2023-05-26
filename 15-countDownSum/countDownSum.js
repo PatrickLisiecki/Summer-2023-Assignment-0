@@ -1,14 +1,15 @@
 class MySolution {
-  countDownSum(num) {
-    // Insert code here;
-    if (num <= 1) {
-      return 1
-    }
+    countDownSum(num) {
+        // Insert code here;
+        // Base case
+        if (num <= 1) {
+            return 1;
+        }
 
-    return num + this.countDownSum(num - 1)
-  }
+        return num + this.countDownSum(num - 1);
+    }
 }
 
 // Do not edit this line;
-let StudentSolution = MySolution
-module.exports = StudentSolution
+let StudentSolution = MySolution;
+module.exports = StudentSolution;
